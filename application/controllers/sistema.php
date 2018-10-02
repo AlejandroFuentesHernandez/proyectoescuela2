@@ -14,8 +14,9 @@ class Sistema extends CI_Controller
 	
 	public function index()
 	{
-		$this->load->view('sistema_view');
 		$this->load->view('url_include');
+		$this->load->view('sistema_view');
+		
 		$this->load->view('url_jquery');
 	}
 }
